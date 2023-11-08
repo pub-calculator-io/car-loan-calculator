@@ -12,9 +12,8 @@ Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)^-n) to hel
 3. Activate the [Car Loan Calculator](https://www.calculator.io/car-loan-calculator/ "Car Loan Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_car_loan_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Car Loan Calculator to the sidebar through the `Appearance -> Widgets -> Car Loan Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_car_loan_calculator(); ?>` to your template where you would like the Car Loan Calculator to appear.
+* Add the shortcode `[ci_car_loan_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_car_loan_calculator(); ?>` to your template where you would like the Car Loan Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
