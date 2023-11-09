@@ -13,6 +13,8 @@ Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)^-n) to hel
 
 Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)^-n) to help buyers calculate a car payment, analyze interest rates, and understand the total cost of an auto loan.
 
+[Car Loan Calculator Homepage](https://www.calculator.io/car-loan-calculator/ "Car Loan Calculator Homepage")
+
 __Shortcode__
 
 Use the Car Loan Calculator shortcode:
