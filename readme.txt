@@ -13,34 +13,35 @@ Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)^-n) to hel
 
 Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)^-n) to help buyers calculate a car payment, analyze interest rates, and understand the total cost of an auto loan.
 
-[Car Loan Calculator Homepage](https://www.calculator.io/car-loan-calculator/ "Car Loan Calculator Homepage")
+[https://www.calculator.io/car-loan-calculator/](https://www.calculator.io/car-loan-calculator/)
 
-__Shortcode__
-
-Use the Car Loan Calculator shortcode:
+__Car Loan Calculator Shortcode__
 
 `[ci_car_loan_calculator]`
-
-Libraries in use:
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
 
 == Installation ==
 
 1. Upload the /ci_car_loan_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Car Loan Calculator](https://www.calculator.io/car-loan-calculator/ "Car Loan Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+== Car Loan Calculator Usage ==
+
 * Add the shortcode `[ci_car_loan_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_car_loan_calculator(); ?>` to your template where you would like the Car Loan Calculator to appear.
 
 == Screenshots ==
+
 1. The Car Loan Calculator Input Form.
 2. The Car Loan Calculator Calculation Results.
+
+== Libraries used in Car Loan Calculator ==
+
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
 
 == Changelog ==
 
