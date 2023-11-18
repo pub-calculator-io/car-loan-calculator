@@ -1,4 +1,4 @@
-=== Car Loan Calculator by Calculator.iO ===
+=== Car Loan Calculator ===
 Contributors: calculatorio
 Tags: car loan calculator, auto finance calculator, vehicle loan estimator, car payment calculator, auto loan interest, car finance terms, auto loan repayment, vehicle financing options, car loan amortization, car purchase calculator
 Requires at least: 5.0
