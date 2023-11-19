@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Car Loan Calculator by www.calculator.io
+Plugin Name: CI Car loan calculator
 Plugin URI: https://www.calculator.io/car-loan-calculator/
 Description: Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)^-n) to help buyers calculate a car payment, analyze interest rates, and understand the total cost of an auto loan.
 Version: 1.0.0
