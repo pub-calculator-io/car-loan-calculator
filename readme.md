@@ -7,7 +7,7 @@ Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)^-n) to hel
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/car-loan-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /car-loan-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Car Loan Calculator](https://www.calculator.io/car-loan-calculator/ "Car Loan Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
