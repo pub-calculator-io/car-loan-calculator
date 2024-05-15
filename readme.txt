@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)^-n) to help buyers calculate a car payment, analyze interest rates, and understand the total cost of an auto loan.
+Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)⁻ⁿ) to help buyers calculate a car payment, analyze interest rates, and understand the total cost of an auto loan.
 
 [https://www.calculator.io/car-loan-calculator/](https://www.calculator.io/car-loan-calculator/)
 
@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Car Loan Calcul
 == Screenshots ==
 
 1. The Car Loan Calculator Input Form.
-2. The Car Loan Calculator Calculation Results.
 
 == Installation ==
 

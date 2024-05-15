@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta name="description" content="Free car loan calculator uses the formula PMT &#x3D; (R × A) / (1 - (1+R)^-n) to help buyers calculate a car payment, analyze interest rates, and understand the total cost of an auto loan.">
+    <meta name="description" content="Free car loan calculator uses the formula PMT &#x3D; (R × A) / (1 - (1+R)⁻ⁿ) to help buyers calculate a car payment, analyze interest rates, and understand the total cost of an auto loan.">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-regular.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-500.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-600.woff2" as="font" crossorigin type="font/woff2">
@@ -28,7 +28,7 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col auto-loan-calculator,loan-calculator,amortization-calculator,payment-calculator,personal-loan-calculator,business-loan-calculator,emi-calculator  ">
                 			<p class="input__title">Loan Amount</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -38,7 +38,7 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col auto-loan-calculator,loan-calculator,amortization-calculator,payment-calculator,personal-loan-calculator,business-loan-calculator,emi-calculator  ">
                 			<p class="input__title">Loan Term</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="term" value="36"  />
@@ -46,7 +46,7 @@
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col auto-loan-calculator,loan-calculator,amortization-calculator,payment-calculator,personal-loan-calculator,business-loan-calculator,emi-calculator  ">
                 			<p class="input__title">Interest Rate</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="interest" value="5"  />
@@ -61,13 +61,15 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -82,8 +84,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="result-table__wrapper">
 		<table class="result-table">
@@ -95,15 +96,15 @@
 			<tbody>
 				<tr>
 					<th class="semibold">Monthly Payment</th>
-					<td class="semibold" id="monthly-payment">$719.30</td>
+					<td class="semibold animate" id="monthly-payment">$719.30</td>
 				</tr>
 				<tr>
 					<th>Total Paid on Loan</th>
-					<td id="total">$25,894.80</td>
+					<td id="total" class="animate">$25,894.80</td>
 				</tr>
 				<tr>
 					<th>Total Paid in Interest</th>
-					<td id="total-interest">$1,894.80</td>
+					<td id="total-interest" class="animate">$1,894.80</td>
 				</tr>
 			</tbody>
 		</table>

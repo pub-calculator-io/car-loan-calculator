@@ -1,9 +1,8 @@
 # Car Loan Calculator Widget for WordPress
 
-Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)^-n) to help buyers calculate a car payment, analyze interest rates, and understand the total cost of an auto loan.
+Free car loan calculator uses the formula PMT = (R × A) / (1 - (1+R)⁻ⁿ) to help buyers calculate a car payment, analyze interest rates, and understand the total cost of an auto loan.
 
 ![Car Loan Calculator Input Form](/assets/images/screenshot-1.png "Car Loan Calculator Input Form")
-![Car Loan Calculator Calculation Results](/assets/images/screenshot-2.png "Car Loan Calculator Calculation Results")
 
 ## Installation
 
